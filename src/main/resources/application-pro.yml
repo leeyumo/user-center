@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: yduyoungd
+    password: 123456
+    url: jdbc:mysql://20.0.0.131:3306/tools_new?zeroDateTimeBehavior=CONVERT_TO_NULL&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&autoReconnect=true&autoReconnectForPools=true
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    generate-ddl: false
+    open-in-view: false
